@@ -3,7 +3,7 @@
 alert("Welcom in a funny websit 🤗 ");
 let userName=prompt("Please enter your name 😃 ");
 console.log("The clint name  is " + userName);
-alert('Hi '+userName +' we will play a fun game like guessing questions let\s go 😃  ');
+alert('Welcome'+userName +' we will play a fun game like guessing questions let\s go 😃  ');
 
 const myName="khaled";
 
@@ -103,3 +103,4 @@ switch(askForPinion){
 }
 
 
+alert(`Welcome again ${userName} 😃 , see you later. 👋 ` );
