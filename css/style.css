@@ -32,7 +32,7 @@ body{
 
 
 p{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 h1{
@@ -56,4 +56,43 @@ footer{
     text-align: center;
     margin-top: 30px;
     font-size: 20px;
+}
+
+.ordered-list li {
+    display: list-item;
+    list-style-position: inside;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px ;
+  }
+
+
+
+
+.ordered-list{
+    
+    text-align: center;
+    margin-top: 50px;
+} 
+
+.unordered-list{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.unordered-list li{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px ;
+    
+
+}
+
+.unordered-list p{
+    font-size: 35px;
+}
+
+.closer{
+    text-indent: -5px;
 }
