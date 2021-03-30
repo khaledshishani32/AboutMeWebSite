@@ -147,20 +147,20 @@ for (let i = 0; i < 4; i++) {
 
 
     else if (insertNum > currectNum) {
-        alert("try smaller than is number ");
+        alert("Try smaller than is number ");
 
         //insertNum = prompt("guss agian");
 
 
     }
     else if (insertNum < currectNum) {
-        alert("try larger this number ");
+        alert("Try larger this number ");
 
        // insertNum = prompt("guss agian");
 
     }
     else {
-        alert("the currect ansowr 50 !");
+        alert("The correct  answer  50 !");
 
 
     }
@@ -180,14 +180,14 @@ let exit_loops = false;
 let clintGuess;
 for (let i = 0; i < 6; i++) {
 
-    clintGuess = prompt("guess my fav food ");
+    clintGuess = prompt(" Guess my favorite food 😃 ");
 
 
     for (let j = 0; j < 4; j++) {
 
         if (clintGuess === myArr[j]) {
             let favChooes= myArr[j];
-            alert(`you are amazing the  ${favChooes} one of my fav food `);
+            alert(`✔️  You are amazing , ${favChooes} is one of my favorite  food 😃 `);
             correctAnswer++;
             exit_loops = true;
             break;
