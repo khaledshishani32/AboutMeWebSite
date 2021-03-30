@@ -7,12 +7,14 @@ alert('Welcome'+userName +' we will play a fun game like guessing questions let\
 
 const myName="khaled";
 
-let askForMyName=prompt("Do you think my name is john wick ? chooes Yes or No ");
+let askForMyName=prompt("Do you think my name is john wick ? chooes Yes/y or No/n ");
 if(askForMyName.toLocaleLowerCase() === "yes" || askForMyName.toLowerCase() === "y"){  
     alert(` ❌  No way john wick is an actor . My name is ${myName}!`);
     console.log(askForMyName.toLocaleLowerCase());
 }else if(askForMyName.toLocaleLowerCase() ==="no" || askForMyName.toLocaleLowerCase()==="n"){
     alert(` ✔️  You are amazing , my name is ${myName} !`);
+}else{
+    alert("Please answer with only yes/y or no/n with no spaces");
 }
 
 const myAge = 27;
@@ -33,7 +35,8 @@ switch(askForMyAge){
     alert(` ✔️  Yes, your answer is correct. I am ${myAge} years old  😁 `);
     console.log(`my age is ${myAge} !` );
     break;
-    
+    default : 
+    alert("Please answer with only yes/y or no/n with no spaces");
 }
 
 const myFavActor = "john wick";
@@ -55,6 +58,8 @@ switch(favActor){
     console.log(` ${myFavActor} is one of my favourite actor\s` );
     break;
     
+    default : 
+    alert("Please answer with only yes/y or no/n with no spaces");
 
 }
 
@@ -77,6 +82,8 @@ switch(askForMyMajor){
     console.log(` My a major is ${myMajor}` );
     break;
     
+    default : 
+    alert("Please answer with only yes/y or no/n with no spaces");
 
 }
 
@@ -99,6 +106,8 @@ switch(askForPinion){
     console.log(askForPinion);
     break;
     
+    default : 
+    alert("Please answer with only yes/y or no/n with no spaces");
 
 }
 
