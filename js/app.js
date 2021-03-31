@@ -68,7 +68,7 @@ switch (askForMyAge) {
 question2();
 
 const myFavActor = "john wick";
-
+//function question3(){}
 let favActor = prompt("Do you think a john wick of my favourite actor\s ? 🤔 , Be smart 😁 chooes Yes or No ");
 
 favActor = favActor.toLocaleLowerCase();
