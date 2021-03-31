@@ -41,6 +41,8 @@ question1();
 
 const myAge = 27;
  
+function question2() {
+    
 
 let askForMyAge = prompt("Do you thing my age between 18 & 25  🤔 ?  chooes Yes or No ");
 
@@ -62,6 +64,8 @@ switch (askForMyAge) {
     default:
         alert("Please answer with only yes/y or no/n with no spaces");
 }
+}
+question2();
 
 const myFavActor = "john wick";
 
