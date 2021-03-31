@@ -125,6 +125,8 @@ switch (askForMyMajor) {
 question4();
 
 let askForPinion = prompt("Did you enjoy with me 😃 ? chooes Yes or No ");
+function question5() {
+    
 
 askForPinion = askForPinion.toLocaleLowerCase();
 
@@ -146,7 +148,8 @@ switch (askForPinion) {
         alert("Please answer with only yes/y or no/n with no spaces");
 
 }
-
+}
+question5();
 
 let currectNum = 50;
 
