@@ -1,9 +1,13 @@
 'use strict';
 
-/*
+
+    
+
 let correctAnswer = 0;
 
 alert("Welcom in a funny websit 🤗 ");
+
+    
 
 let userName = prompt("Please enter your name 😃 ");
 
@@ -18,6 +22,8 @@ while (!userName) {
 alert('Welcome ' + userName + ' we will play a fun game like guessing questions let\s go 😃  ');
 
 const myName = "khaled";
+function question1() {
+    
 
 let askForMyName = prompt("Do you think my name is john wick ? chooes Yes/y or No/n ");
 if (askForMyName.toLocaleLowerCase() === "yes" || askForMyName.toLowerCase() === "y") {
@@ -30,7 +36,11 @@ if (askForMyName.toLocaleLowerCase() === "yes" || askForMyName.toLowerCase() ===
     alert("Please answer with only yes/y or no/n with no spaces");
 }
 
+}
+question1();
+
 const myAge = 27;
+ 
 
 let askForMyAge = prompt("Do you thing my age between 18 & 25  🤔 ?  chooes Yes or No ");
 
@@ -173,7 +183,7 @@ for (let i = 0; i < 4; i++) {
 
 
 correctAnswer++;
-*/
+
 
 
 
