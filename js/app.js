@@ -41,6 +41,8 @@ question1();
 
 const myAge = 27;
  
+function question2() {
+    
 
 let askForMyAge = prompt("Do you thing my age between 18 & 25  🤔 ?  chooes Yes or No ");
 
@@ -62,8 +64,12 @@ switch (askForMyAge) {
     default:
         alert("Please answer with only yes/y or no/n with no spaces");
 }
+}
+question2();
 
 const myFavActor = "john wick";
+function question3() {
+    
 
 let favActor = prompt("Do you think a john wick of my favourite actor\s ? 🤔 , Be smart 😁 chooes Yes or No ");
 
@@ -87,8 +93,11 @@ switch (favActor) {
         alert("Please answer with only yes/y or no/n with no spaces");
 
 }
-
+}
+question3();
 const myMajor = "Information Technology";
+function question4() {
+    
 
 let askForMyMajor = prompt("Do you think that my major is human medicine ? 🤔  chooes Yes or No ");
 
@@ -112,10 +121,12 @@ switch (askForMyMajor) {
         alert("Please answer with only yes/y or no/n with no spaces");
 
 }
-
-
+}
+question4();
 
 let askForPinion = prompt("Did you enjoy with me 😃 ? chooes Yes or No ");
+function question5() {
+    
 
 askForPinion = askForPinion.toLocaleLowerCase();
 
@@ -137,11 +148,14 @@ switch (askForPinion) {
         alert("Please answer with only yes/y or no/n with no spaces");
 
 }
-
+}
+question5();
 
 let currectNum = 50;
 
 let insertNum = null ;
+function question6() {
+    
 
 for (let i = 0; i < 4; i++) {
 
@@ -184,11 +198,14 @@ for (let i = 0; i < 4; i++) {
 
 correctAnswer++;
 
-
+}
+question6();
 
 
 
 let myArr = ["pizza", "burger", "pasta", "mansaf"];
+function question7() {
+    
 
 let exit_loops = false;
 let clintGuess;
@@ -222,3 +239,5 @@ for (let i = 0; i < 6; i++) {
 
 alert(`Welcome again ${userName} 😃 , You'r scor is ${correctAnswer} of 7 , see you later. 👋 `);
 
+}
+question7();
