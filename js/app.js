@@ -1,6 +1,6 @@
 'use strict';
 
-
+/*
 let correctAnswer = 0;
 
 alert("Welcom in a funny websit 🤗 ");
@@ -131,13 +131,14 @@ switch (askForPinion) {
 
 let currectNum = 50;
 
-let insertNum ;
+let insertNum = null ;
 
 for (let i = 0; i < 4; i++) {
 
     
      insertNum = prompt("gussing number between 0 to 100 ");
-    if (insertNum == 50) {
+     insertNum=parseInt(insertNum);
+    if (insertNum === 50) {
 
         alert(` Good job the currect number is ${currectNum} 😃 `);
         break;
@@ -164,12 +165,15 @@ for (let i = 0; i < 4; i++) {
 
 
     }
-
+    
+    if(i === 3){
+        alert("The correct answer 50");
+    }
 }
 
 
 correctAnswer++;
-
+*/
 
 
 
@@ -187,26 +191,24 @@ for (let i = 0; i < 6; i++) {
 
         if (clintGuess === myArr[j]) {
             let favChooes= myArr[j];
-            alert(`✔️  You are amazing , ${favChooes} is one of my favorite  food 😃 `);
+            alert(`✔️  You are amazing , ${favChooes} is one of my favorite  food 😃 and all these ${myArr} `);
             correctAnswer++;
             exit_loops = true;
             break;
         }
-
-
 
         
     }if (exit_loops)
     break;
 
     
-    
-    //alert("try agian");
     clintGuess = prompt("Try agian");
 
+    if(i === 0){
+        alert("sorry you ran out of tries");
+    }
 
 }
 
 alert(`Welcome again ${userName} 😃 , You'r scor is ${correctAnswer} of 7 , see you later. 👋 `);
-
 
