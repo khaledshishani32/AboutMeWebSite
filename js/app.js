@@ -68,7 +68,9 @@ switch (askForMyAge) {
 question2();
 
 const myFavActor = "john wick";
-//function question3(){}
+function question3() {
+    
+
 let favActor = prompt("Do you think a john wick of my favourite actor\s ? 🤔 , Be smart 😁 chooes Yes or No ");
 
 favActor = favActor.toLocaleLowerCase();
@@ -91,7 +93,8 @@ switch (favActor) {
         alert("Please answer with only yes/y or no/n with no spaces");
 
 }
-
+}
+question3();
 const myMajor = "Information Technology";
 
 let askForMyMajor = prompt("Do you think that my major is human medicine ? 🤔  chooes Yes or No ");
