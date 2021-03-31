@@ -154,6 +154,8 @@ question5();
 let currectNum = 50;
 
 let insertNum = null ;
+function question6() {
+    
 
 for (let i = 0; i < 4; i++) {
 
@@ -196,7 +198,8 @@ for (let i = 0; i < 4; i++) {
 
 correctAnswer++;
 
-
+}
+question6();
 
 
 
