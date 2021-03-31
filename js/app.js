@@ -96,6 +96,8 @@ switch (favActor) {
 }
 question3();
 const myMajor = "Information Technology";
+function question4() {
+    
 
 let askForMyMajor = prompt("Do you think that my major is human medicine ? 🤔  chooes Yes or No ");
 
@@ -119,8 +121,8 @@ switch (askForMyMajor) {
         alert("Please answer with only yes/y or no/n with no spaces");
 
 }
-
-
+}
+question4();
 
 let askForPinion = prompt("Did you enjoy with me 😃 ? chooes Yes or No ");
 
