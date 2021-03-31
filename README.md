@@ -14,6 +14,15 @@ A gussing game website
 ##### The game asks for my name, age, favorite actor,  a major and finally the visitor's opinion.
 ##### final question rturn like a welcome from her / his opinio .
 
+
+
+# new features
+---
+
+##### Adding another question the first one guessing the right number, the second one to guessing my favorite food.
+##### Adding functions() for all seven questions.
+##### I and ikremai worked together (Pair Programming) to add the functions, as I a navigator and he a driver  
+
 # languages used
 ---
 ##### Of course, it is the HTML page, and the Javascript language was used to make the game.
