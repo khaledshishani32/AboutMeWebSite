@@ -204,6 +204,8 @@ question6();
 
 
 let myArr = ["pizza", "burger", "pasta", "mansaf"];
+function question7() {
+    
 
 let exit_loops = false;
 let clintGuess;
@@ -237,3 +239,5 @@ for (let i = 0; i < 6; i++) {
 
 alert(`Welcome again ${userName} 😃 , You'r scor is ${correctAnswer} of 7 , see you later. 👋 `);
 
+}
+question7();
