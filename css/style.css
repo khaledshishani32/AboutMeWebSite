@@ -12,7 +12,7 @@ html{
      font-size: 10px;
 }
 
- /*color palett/2763*/
+
 body{
   text-align: center;
   height: 100%;
@@ -20,9 +20,11 @@ body{
   background: rgb(170,168,169);
 background: radial-gradient(circle, rgba(170,168,169,1) 0%, rgba(255,255,255,1) 100%);
 
-  /* background-color: #eeeeee; */
+  
   font-family: 'Roboto' ,sans-serif;
 }
+
+
 
 .parent{
 
