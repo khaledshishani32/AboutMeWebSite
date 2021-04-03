@@ -12,27 +12,75 @@ html{
      font-size: 10px;
 }
 
-
+ /*color palett/2763*/
 body{
-    
-   background-color: #dddddd;
-    /*background-image: url("/img/background.png");*/
-    
-    font-family: 'Roboto' ,sans-serif;
+  text-align: center;
+  height: 100%;
+
+  background: rgb(170,168,169);
+background: radial-gradient(circle, rgba(170,168,169,1) 0%, rgba(255,255,255,1) 100%);
+
+  /* background-color: #eeeeee; */
+  font-family: 'Roboto' ,sans-serif;
 }
 
-.middel{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0px 50px 0px 50px ;
-    margin-top:60px;
-    text-align: center;
+.parent{
+
+  position: relative;
+  margin-top: 45px;
 
 }
+.unordered-list{
+
+
+    position: relative;
+
+    margin-bottom: 60px;
+
+}
+.ordered-list-movies-list{
+    position: absolute;
+    padding: 30px;
+    margin-top: 70px;
+} 
+
+.ordered-list-place{
+    position: relative;
+
+    margin-top: 50px;
+
+}
+
+ul{
+    list-style-type: circle;
+   
+    
+}
+
+ol{
+
+    list-style-position:inside;
+    
+}
+
+li{
+ 
+    font-size: 25px;
+    list-style-position: inside;
+    margin: 5px;
+
+
+}
+    
+
+    
+
+
 
 
 p{
     font-size: 35px;
+    color: #222831;
 }
 
 h1{
@@ -56,42 +104,12 @@ footer{
     text-align: center;
     margin-top: 30px;
     font-size: 20px;
-}
-
-.ordered-list li {
-    display: list-item;
-    list-style-position: inside;
-    font-size: 18px;
-    text-align: center;
-    margin: 5px ;
-  }
-
-
-
-
-.ordered-list{
-    
-    text-align: center;
-    margin-top: 50px;
-} 
-
-.unordered-list{
-    text-align: center;
-    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 
-.unordered-list li{
-    font-size: 18px;
-    text-align: center;
-    margin: 10px ;
-    
 
-}
 
-.unordered-list p{
-    font-size: 35px;
-}
 
 .closer{
     text-indent: -5px;
